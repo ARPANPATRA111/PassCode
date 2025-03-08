@@ -83,3 +83,29 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
+.length-container p:nth-child(1) {
+    color:white;
+    font-size: 1.5rem;
+}
+
+
+.length-container p:nth-child(2) {
+    color:yellow;
+    font-size: 1.5rem;
+}
+
+
+.strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+
+.strength-container p{
+    color:white;
+    font-size: 1.5rem;
+}
