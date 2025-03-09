@@ -109,3 +109,62 @@ h1 {
     color:white;
     font-size: 1.5rem;
 }
+
+.indicator {
+    width:1.5rem;
+    height:1.5rem;
+    border-radius:50%;
+}
+
+.generateButton {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: violet;
+    text-align: center;
+    border-radius: 0.75rem;
+    border-bottom: 0.35rem solid yellow;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: yellow;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+
+.check {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 0 1rem;
+}
+
+.check input{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid cyan;
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.35rem;
+}
+
+
+.check input:checked{
+    background-color: cyan;
+}
+
+
+.check input:checked::before {
+    content: '✔';
+    position: absolute;
+    color: red;
+    font-size:1.05rem;
+    font-weight: 600;
+    left:20%;
+    top:-3.5px;
+}
+
+.check label {
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 0.75px;
+}
