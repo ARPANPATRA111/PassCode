@@ -49,8 +49,8 @@ h1 {
     padding-right: 3.25rem;
     border:none;
   }
-
-  .display::placeholder {
+  
+.display::placeholder {
     position:absolute;
     top: 50%;
     left: 1.5rem;
@@ -83,6 +83,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .length-container p:nth-child(1) {
     color:white;
